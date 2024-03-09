@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ragchunkingstrategies"
+version = "0.1.0"
+description = ""
+authors = ["simeon2941 <simeonlico@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chromadb = "^0.4.24"
+langchain = "^0.1.11"
+llama-index = "^0.10.18"
+langchain-experimental = "^0.0.53"
+langchain-openai = "^0.0.8"
+langchainhub = "^0.1.15"
+rich = "^13.7.1"
+langchain-community = "^0.0.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
